@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:CBFuncAPI/CBFuncAPI.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:CBFuncLib/CBFuncLib.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "container:CBFunc/CBFunc.xcodeproj">
+   </FileRef>
+</Workspace>

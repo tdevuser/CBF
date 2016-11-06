@@ -1,0 +1,122 @@
+﻿빌드 시작: 2016-10-30 오전 2:18:47
+     1>2 노드의 "C:\DevProject\myprj\CbFuncExt\_PrjFile\CBFuncExt.vcxproj" 프로젝트(rebuild 대상)입니다.
+     1>PrepareForBuild:
+         "C:\DevProject\myprj\CbFuncInject\_PrjFile\x64\Debug\" 디렉터리를 만들고 있습니다.
+       InitializeBuildStatus:
+         "AlwaysCreate"이(가) 지정되었기 때문에 "x64\Debug\CBFuncExt.unsuccessfulbuild"을(를) 만들고 있습니다.
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /Od /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D CBFUNCEXT_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc100.pdb" /Gd /TP /errorReport:prompt ..\CBFuncExt.cpp ..\CodeSect.cpp ..\HookCode.cpp ..\HookDefMain.cpp ..\DllMain.cpp
+         DllMain.cpp
+         HookDefMain.cpp
+     1>c:\devproject\myprj\cbfuncext\HookCode.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+     1>c:\devproject\myprj\cbfuncext\HookCode.h(180): error C2146: 구문 오류 : ';'이(가) 'm_MutexHook' 식별자 앞에 없습니다.
+     1>c:\devproject\myprj\cbfuncext\HookCode.h(180): error C4430: 형식 지정자가 없습니다. int로 가정합니다. 참고: C++에서는 기본 int를 지원하지 않습니다.
+     1>c:\devproject\myprj\cbfuncext\HookCode.h(180): error C4430: 형식 지정자가 없습니다. int로 가정합니다. 참고: C++에서는 기본 int를 지원하지 않습니다.
+         HookCode.cpp
+     1>c:\devproject\myprj\cbfuncext\HookCode.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+     1>c:\devproject\myprj\cbfuncext\HookCode.h(180): error C2146: 구문 오류 : ';'이(가) 'm_MutexHook' 식별자 앞에 없습니다.
+     1>c:\devproject\myprj\cbfuncext\HookCode.h(180): error C4430: 형식 지정자가 없습니다. int로 가정합니다. 참고: C++에서는 기본 int를 지원하지 않습니다.
+     1>c:\devproject\myprj\cbfuncext\HookCode.h(180): error C4430: 형식 지정자가 없습니다. int로 가정합니다. 참고: C++에서는 기본 int를 지원하지 않습니다.
+     1>..\HookCode.cpp(25): error C2146: 구문 오류 : ';'이(가) 'g_PIApi' 식별자 앞에 없습니다.
+     1>..\HookCode.cpp(25): error C4430: 형식 지정자가 없습니다. int로 가정합니다. 참고: C++에서는 기본 int를 지원하지 않습니다.
+     1>..\HookCode.cpp(25): error C4430: 형식 지정자가 없습니다. int로 가정합니다. 참고: C++에서는 기본 int를 지원하지 않습니다.
+     1>..\HookCode.cpp(25): error C2371: 'g_PIApi' : 재정의. 기본 형식이 다릅니다.
+                 c:\devproject\myprj\cbfuncext\CBFuncExt.h(73) : 'g_PIApi' 선언을 참조하십시오.
+     1>..\HookCode.cpp(58): error C2014: 전처리기 명령은 공백 아닌 문자로 시작해야 합니다.
+     1>..\HookCode.cpp(58): fatal error C1017: 정수 계열 상수 식이 잘못되었습니다.
+         CodeSect.cpp
+         CBFuncExt.cpp
+     1>c:\devproject\myprj\cbfuncext\HookCode.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+     1>c:\devproject\myprj\cbfuncext\HookCode.h(180): error C2146: 구문 오류 : ';'이(가) 'm_MutexHook' 식별자 앞에 없습니다.
+     1>c:\devproject\myprj\cbfuncext\HookCode.h(180): error C4430: 형식 지정자가 없습니다. int로 가정합니다. 참고: C++에서는 기본 int를 지원하지 않습니다.
+     1>c:\devproject\myprj\cbfuncext\HookCode.h(180): error C4430: 형식 지정자가 없습니다. int로 가정합니다. 참고: C++에서는 기본 int를 지원하지 않습니다.
+     1>..\CBFuncExt.cpp(39): warning C4273: 'CBFuncExt::CBFuncExt' : dll 링크가 일치하지 않습니다.
+                 c:\devproject\myprj\cbfuncext\CBFuncExt.h(35) : '{ctor}'의 이전 정의를 참조하십시오.
+     1>..\CBFuncExt.cpp(45): warning C4273: 'CBFuncExt::~CBFuncExt' : dll 링크가 일치하지 않습니다.
+                 c:\devproject\myprj\cbfuncext\CBFuncExt.h(36) : '{dtor}'의 이전 정의를 참조하십시오.
+     1>..\CBFuncExt.cpp(49): warning C4273: 'CBFuncExt::GetProcessID' : dll 링크가 일치하지 않습니다.
+                 c:\devproject\myprj\cbfuncext\CBFuncExt.h(45) : 'GetProcessID'의 이전 정의를 참조하십시오.
+     1>..\CBFuncExt.cpp(51): error C2065: 'pid_t' : 선언되지 않은 식별자입니다.
+     1>..\CBFuncExt.cpp(51): error C2146: 구문 오류 : ';'이(가) 'PIDArray' 식별자 앞에 없습니다.
+     1>..\CBFuncExt.cpp(51): error C2065: 'PIDArray' : 선언되지 않은 식별자입니다.
+     1>..\CBFuncExt.cpp(52): error C2065: 'PROC_PIDPATHINFO_MAXSIZE' : 선언되지 않은 식별자입니다.
+     1>..\CBFuncExt.cpp(53): error C2065: 'PROC_PIDPATHINFO_MAXSIZE' : 선언되지 않은 식별자입니다.
+     1>..\CBFuncExt.cpp(55): error C2065: 'PROC_ALL_PIDS' : 선언되지 않은 식별자입니다.
+     1>..\CBFuncExt.cpp(55): error C3861: 'proc_listpids': 식별자를 찾을 수 없습니다.
+     1>..\CBFuncExt.cpp(57): error C2065: 'PIDArray' : 선언되지 않은 식별자입니다.
+     1>..\CBFuncExt.cpp(57): error C2065: 'PIDArray' : 선언되지 않은 식별자입니다.
+     1>..\CBFuncExt.cpp(57): error C2070: ''unknown-type'': sizeof 피연산자가 잘못되었습니다.
+     1>..\CBFuncExt.cpp(58): error C2065: 'PROC_ALL_PIDS' : 선언되지 않은 식별자입니다.
+     1>..\CBFuncExt.cpp(58): error C2065: 'PIDArray' : 선언되지 않은 식별자입니다.
+     1>..\CBFuncExt.cpp(58): error C2065: 'PIDArray' : 선언되지 않은 식별자입니다.
+     1>..\CBFuncExt.cpp(58): error C2070: ''unknown-type'': sizeof 피연산자가 잘못되었습니다.
+     1>..\CBFuncExt.cpp(58): error C3861: 'proc_listpids': 식별자를 찾을 수 없습니다.
+     1>..\CBFuncExt.cpp(62): error C2065: 'PIDArray' : 선언되지 않은 식별자입니다.
+     1>..\CBFuncExt.cpp(65): error C2065: 'PIDArray' : 선언되지 않은 식별자입니다.
+     1>..\CBFuncExt.cpp(65): error C3861: 'proc_pidpath': 식별자를 찾을 수 없습니다.
+     1>..\CBFuncExt.cpp(78): error C2065: 'PIDArray' : 선언되지 않은 식별자입니다.
+     1>..\CBFuncExt.cpp(87): warning C4273: 'CBFuncExt::Init' : dll 링크가 일치하지 않습니다.
+                 c:\devproject\myprj\cbfuncext\CBFuncExt.h(38) : 'Init'의 이전 정의를 참조하십시오.
+     1>..\CBFuncExt.cpp(89): error C2065: 'pid_t' : 선언되지 않은 식별자입니다.
+     1>..\CBFuncExt.cpp(89): error C2146: 구문 오류 : ';'이(가) 'nPID' 식별자 앞에 없습니다.
+     1>..\CBFuncExt.cpp(89): error C2065: 'nPID' : 선언되지 않은 식별자입니다.
+     1>..\CBFuncExt.cpp(97): error C3861: 'getpid': 식별자를 찾을 수 없습니다.
+     1>..\CBFuncExt.cpp(99): error C3861: 'getpid': 식별자를 찾을 수 없습니다.
+     1>..\CBFuncExt.cpp(100): error C3861: 'getprogname': 식별자를 찾을 수 없습니다.
+     1>..\CBFuncExt.cpp(107): error C2065: 'nPID' : 선언되지 않은 식별자입니다.
+     1>..\CBFuncExt.cpp(110): error C3861: 'getpid': 식별자를 찾을 수 없습니다.
+     1>..\CBFuncExt.cpp(110): error C3861: 'getprogname': 식별자를 찾을 수 없습니다.
+     1>..\CBFuncExt.cpp(115): error C3861: 'getpid': 식별자를 찾을 수 없습니다.
+     1>..\CBFuncExt.cpp(115): error C3861: 'getprogname': 식별자를 찾을 수 없습니다.
+     1>..\CBFuncExt.cpp(121): warning C4273: 'CBFuncExt::Uninit' : dll 링크가 일치하지 않습니다.
+                 c:\devproject\myprj\cbfuncext\CBFuncExt.h(39) : 'Uninit'의 이전 정의를 참조하십시오.
+     1>..\CBFuncExt.cpp(132): warning C4273: 'CBFuncExt::Install' : dll 링크가 일치하지 않습니다.
+                 c:\devproject\myprj\cbfuncext\CBFuncExt.h(40) : 'Install'의 이전 정의를 참조하십시오.
+     1>..\CBFuncExt.cpp(152): warning C4273: 'CBFuncExt::Uninstall' : dll 링크가 일치하지 않습니다.
+                 c:\devproject\myprj\cbfuncext\CBFuncExt.h(41) : 'Uninstall'의 이전 정의를 참조하십시오.
+     1>..\CBFuncExt.cpp(163): warning C4273: 'CBFuncExt::UnhookAPI_Calls' : dll 링크가 일치하지 않습니다.
+                 c:\devproject\myprj\cbfuncext\CBFuncExt.h(49) : 'UnhookAPI_Calls'의 이전 정의를 참조하십시오.
+     1>..\CBFuncExt.cpp(189): warning C4273: 'CBFuncExt::HookAPI_Calls' : dll 링크가 일치하지 않습니다.
+                 c:\devproject\myprj\cbfuncext\CBFuncExt.h(50) : 'HookAPI_Calls'의 이전 정의를 참조하십시오.
+     1>..\CBFuncExt.cpp(208): warning C4273: 'CBFuncExt::HookAPI_Code_Calls' : dll 링크가 일치하지 않습니다.
+                 c:\devproject\myprj\cbfuncext\CBFuncExt.h(51) : 'HookAPI_Code_Calls'의 이전 정의를 참조하십시오.
+     1>..\CBFuncExt.cpp(232): warning C4273: 'CBFuncExt::SetLogPath' : dll 링크가 일치하지 않습니다.
+                 c:\devproject\myprj\cbfuncext\CBFuncExt.h(43) : 'SetLogPath'의 이전 정의를 참조하십시오.
+     1>..\CBFuncExt.cpp(236): error C3861: 'mkdir': 식별자를 찾을 수 없습니다.
+     1>..\CBFuncExt.cpp(241): warning C4273: 'CBFuncExt::SetLogPath' : dll 링크가 일치하지 않습니다.
+                 c:\devproject\myprj\cbfuncext\CBFuncExt.h(44) : 'SetLogPath'의 이전 정의를 참조하십시오.
+     1>..\CBFuncExt.cpp(243): error C2065: 'PROC_PIDPATHINFO_MAXSIZE' : 선언되지 않은 식별자입니다.
+     1>..\CBFuncExt.cpp(269): warning C4273: 'CBFuncExt::GetProcessPath' : dll 링크가 일치하지 않습니다.
+                 c:\devproject\myprj\cbfuncext\CBFuncExt.h(46) : 'GetProcessPath'의 이전 정의를 참조하십시오.
+     1>..\CBFuncExt.cpp(272): error C2065: 'PROC_PIDPATHINFO_MAXSIZE' : 선언되지 않은 식별자입니다.
+     1>..\CBFuncExt.cpp(275): error C3861: 'proc_pidpath': 식별자를 찾을 수 없습니다.
+     1>..\CBFuncExt.cpp(282): error C3861: 'MIN': 식별자를 찾을 수 없습니다.
+     1>..\CBFuncExt.cpp(290): warning C4273: 'CBFuncExt::GetLogDateTime' : dll 링크가 일치하지 않습니다.
+                 c:\devproject\myprj\cbfuncext\CBFuncExt.h(63) : 'GetLogDateTime'의 이전 정의를 참조하십시오.
+     1>..\CBFuncExt.cpp(300): error C3861: 'snprintf': 식별자를 찾을 수 없습니다.
+     1>..\CBFuncExt.cpp(307): warning C4273: 'CBFuncExt::GetLogDate' : dll 링크가 일치하지 않습니다.
+                 c:\devproject\myprj\cbfuncext\CBFuncExt.h(62) : 'GetLogDate'의 이전 정의를 참조하십시오.
+     1>..\CBFuncExt.cpp(317): error C3861: 'snprintf': 식별자를 찾을 수 없습니다.
+     1>..\CBFuncExt.cpp(323): warning C4273: 'CBFuncExt::WriteLog' : dll 링크가 일치하지 않습니다.
+                 c:\devproject\myprj\cbfuncext\CBFuncExt.h(61) : 'WriteLog'의 이전 정의를 참조하십시오.
+     1>..\CBFuncExt.cpp(335): error C3861: 'snprintf': 식별자를 찾을 수 없습니다.
+     1>..\CBFuncExt.cpp(346): warning C4273: 'CBFuncExt::WriteLogApp' : dll 링크가 일치하지 않습니다.
+                 c:\devproject\myprj\cbfuncext\CBFuncExt.h(57) : 'WriteLogApp'의 이전 정의를 참조하십시오.
+     1>..\CBFuncExt.cpp(358): error C3861: 'va_start': 식별자를 찾을 수 없습니다.
+     1>..\CBFuncExt.cpp(360): error C3861: 'va_end': 식별자를 찾을 수 없습니다.
+     1>..\CBFuncExt.cpp(373): warning C4273: 'CBFuncExt::WriteLogHookAPI' : dll 링크가 일치하지 않습니다.
+                 c:\devproject\myprj\cbfuncext\CBFuncExt.h(58) : 'WriteLogHookAPI'의 이전 정의를 참조하십시오.
+     1>..\CBFuncExt.cpp(386): error C3861: 'va_start': 식별자를 찾을 수 없습니다.
+     1>..\CBFuncExt.cpp(388): error C3861: 'va_end': 식별자를 찾을 수 없습니다.
+     1>..\CBFuncExt.cpp(399): warning C4273: 'CBFuncExt::GetBufferFormat' : dll 링크가 일치하지 않습니다.
+                 c:\devproject\myprj\cbfuncext\CBFuncExt.h(56) : 'GetBufferFormat'의 이전 정의를 참조하십시오.
+     1>..\CBFuncExt.cpp(406): error C3861: 'va_start': 식별자를 찾을 수 없습니다.
+     1>..\CBFuncExt.cpp(408): error C3861: 'va_end': 식별자를 찾을 수 없습니다.
+     1>..\CBFuncExt.cpp(415): warning C4273: 'CBFuncExt::HookFuncTest' : dll 링크가 일치하지 않습니다.
+                 c:\devproject\myprj\cbfuncext\CBFuncExt.h(54) : 'HookFuncTest'의 이전 정의를 참조하십시오.
+         Generating Code...
+     1>"C:\DevProject\myprj\CbFuncExt\_PrjFile\CBFuncExt.vcxproj" 프로젝트를 빌드했습니다(rebuild 대상). - 실패
+
+빌드하지 못했습니다.
+
+경과 시간: 00:00:01.89
